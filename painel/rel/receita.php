@@ -68,7 +68,7 @@ body {font-family: 'Tw Cen MT', sans-serif;}
 .marca{
 	position:fixed;
 	left:50;
-	top:130;
+	top:200;
 	width:80%;
 	opacity:10%;
 }
@@ -89,7 +89,7 @@ if($marca_dagua == 'Sim'){ ?>
 		<table style="width: 100%; border: 0px solid #ccc;">
 			<tr>
 				<td style="border: 1px; solid #000; width: 20%; text-align: left;">
-					<img style="margin-top: 5px; margin-left: 7px;" id="imag" src="<?php echo $url_sistema ?>img/logo.jpg" width="140px">
+					<img style="margin-top: 2px; margin-left: 7px;" id="imag" src="<?php echo $url_sistema ?>img/logo.jpg" width="90px">
 				</td>
 				<td style="width: 20%; text-align: left; font-size: 13px;">
 				
@@ -121,9 +121,9 @@ if($marca_dagua == 'Sim'){ ?>
 						<?php echo mb_strtoupper($nome_paciente) ?>
 					</td>
 					
-					<td style="width:15%; border-right: 1px solid #000;border-bottom: : 1px solid #000;">DATA DA CONSULTA: </td>
+					<td style="width:15%; border-right: 1px solid #000;border-bottom: : 1px solid #000;">ENDEREÇO: </td>
 					<td style="width:40%; border-bottom: : 1px solid #000; border-right: 1px solid #000;">
-						<?php echo mb_strtoupper($data_hoje) ?>
+						<?php echo mb_strtoupper($endereco_paciente) ?>
 					</td>
 
 
@@ -135,7 +135,7 @@ if($marca_dagua == 'Sim'){ ?>
 		</table>
 
 		
-		<div align="left" style="margin-top: 25px; margin-bottom: 10px; border-bottom: 1px solid #000; font-size:12px"><b>REMÉDIOS</b></div>
+		<div align="left" style="margin-top: 30px; margin-bottom: 10px; border-bottom: 1px solid #000; font-size:12px"><b>MEDICAMENTOS</b></div>
 
 
 </div>
